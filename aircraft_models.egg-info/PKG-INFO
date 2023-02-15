@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: aircraft-models
-Version: 1.0
-Summary: This package contains a list of the Aircraft models and manufacturer as per DOC 8643 ICAO
-Author: Giorgio Scarso
-Author-email: scarso.giorgio@gmail.com
-License-File: LICENSE

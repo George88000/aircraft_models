@@ -1,7 +1,0 @@
-LICENSE
-README.md
-setup.py
-aircraft_models.egg-info/PKG-INFO
-aircraft_models.egg-info/SOURCES.txt
-aircraft_models.egg-info/dependency_links.txt
-aircraft_models.egg-info/top_level.txt
