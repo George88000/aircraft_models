@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: aircraft-models
-Version: 1.0
+Name: aircraft-list
+Version: 1.1
 Summary: This package contains a list of the Aircraft models and manufacturer as per DOC 8643 ICAO
 Home-page: https://github.com/George88000/aircraft_models
 Author: Giorgio Scarso
