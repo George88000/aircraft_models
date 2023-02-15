@@ -3,6 +3,7 @@ README.md
 setup.py
 aircraft_list/__init__.py
 aircraft_list/aircraft_list.py
+aircraft_list/aircraft_model_list.csv
 aircraft_list.egg-info/PKG-INFO
 aircraft_list.egg-info/SOURCES.txt
 aircraft_list.egg-info/dependency_links.txt

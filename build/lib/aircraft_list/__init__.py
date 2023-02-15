@@ -1,1 +1,1 @@
-from aircraft_list import aircraft_models
+from .aircraft_list import aircraft_models
