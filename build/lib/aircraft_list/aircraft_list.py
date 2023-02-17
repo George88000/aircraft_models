@@ -18,4 +18,4 @@ def aircraft_models():
                 row_dict['wake'] = r.split(',')[6]
                 data.append(row_dict)
         data.pop(0)
-        print(data)
+        return data
