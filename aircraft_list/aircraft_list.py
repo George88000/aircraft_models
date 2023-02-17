@@ -1,11 +1,5 @@
-import csv
-
-
-def split_string(stringa):
-    return stringa.split(',')
-
-
 def aircraft_models():
+    import csv
     import pkg_resources
     data_file = pkg_resources.resource_filename(
         __name__, 'aircraft_model_list.csv')
@@ -14,14 +8,14 @@ def aircraft_models():
         reader = csv.reader(f, delimiter=';')
         for row in reader:
             row_dict = {}
-            if len(row) >= 7:
-                row_dict['manufacturer'] = row[0]
-                row_dict['model'] = row[1]
-                row_dict['icao'] = row[2]
-                row_dict['type'] = row[3]
-                row_dict['engine'] = row[4]
-                row_dict['engine_number'] = row[5]
-                row_dict['wake'] = row[6]
+            for r in row:
+                row_dict['manufacturer'] = r.split(',')[0]
+                row_dict['model'] = r.split(',')[1]
+                row_dict['icao'] = r.split(',')[2]
+                row_dict['type'] = r.split(',')[3]
+                row_dict['engine'] = r.split(',')[4]
+                row_dict['engine_number'] = r.split(',')[5]
+                row_dict['wake'] = r.split(',')[6]
                 data.append(row_dict)
         data.pop(0)
-        return data
+        print(data)
